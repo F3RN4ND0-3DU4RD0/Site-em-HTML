@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+        <title>Contato</title>
+</head>
+<body> 
+    <form method="post">
+        <input type="text" name="nome" placeholder="Nome" /><br>
+        <input type="password" name="pass" placeholder="Senha" /><br>
+        <input type="email" name="email" placeholder="E-mail" /><br>
+        <input type="search" name="srh" placeholder="Pesquisar" /><br>
+        <input type="tel" name="tel" placeholder="Telefone" /><br>
+        <input type="number" name="numo" placeholder="Idade"/><br>
+        <input type="url" name="linkedin" placeholder="Linkedin Url" /><br>
+        Urgência <input type="range" name="urgency" min="0" max="100" step="1" /><br>
+        <input type="checkbox" name="dia-da-semana" value= 2 />Segunda-Feira<br>
+        <input type="checkbox" name="dia-da-semana" value= 4 />Quarta-Feira<br>
+        <input type="checkbox" name="dia-da-semana" value= 6 />Sexta-Feira<br>
+        <input type="radio" name="horario" value="manha" /> Manhã 
+        <input type="radio" name="horario" value="tarde" /> Tarde 
+        <input type="radio" name="horario" value="noite" /> Noite <br >
+        <textarea cols="30" rows="10"></textarea><br />
+        <select name="cidade">
+            <option value="">Selecione a cidade</option>
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Sobral">Sobral</option>
+            <option value="Crato">Crato</option>
+            <option value="Forquilha">Forquilha</option>
+        </select> <br><br><br><br>
+        <input list="comida" name="pratos" />
+        <datalist id="comida">
+            <option value="Caranguejada">Caranguejada</option>
+            <option value="Hamburguer_de_siri">Hamburguer de siri</option>
+            <option value="Ovo_cozido">Ovo cozido</option>
+            <option value="Feijoada">Feijoada</option>
+            <option value="Arroz_Feijao">Arroz e Feijão</option>
+        </datalist><br>
+        <button type="button">Botão</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar Formulário</button>
+    </form>
+</body>
+</html>
